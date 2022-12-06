@@ -1,0 +1,82 @@
+.login-main1 {
+  display: flex;
+}
+
+.picture img {
+  height: 614px;
+  width: 827px;
+  margin-top: 4%;
+}
+.login-form1{
+    border:none;
+    border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width:40%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ font-family: 'Roboto Slab', serif;
+ background-color: #3ABB92;
+}
+.form {
+  margin-top: 40px;
+}
+
+.login-form1 h1 {
+  float: left !important;
+  font-family: "Roboto Slab", serif;
+}
+.files input {
+  height: 50px;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+
+  outline: none;
+  background: transparent;
+  padding-top: 10px;
+  margin-left: 10px;
+  float: left !important;
+}
+.form input {
+  height: 50px;
+  width: 80%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin-left: 10px;
+}
+.login-form1 img {
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.login-form1 button {
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: black;
+  cursor: pointer;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  transition: ease-out 0.3s;
+  color: white;
+  margin-top: 80px;
+}
+.login-form1 button:hover {
+  box-shadow: inset 300px 0 0 0 white;
+  cursor: pointer;
+  color: black;
+}
+::placeholder {
+  color: black;
+}
+.login-form1 a {
+  margin-top: 20px;
+}
